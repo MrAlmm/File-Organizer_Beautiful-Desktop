@@ -38,3 +38,20 @@ Developed by **Lynx1 / CYBER TECHNOLOGY**.
 Standard Tkinter interfaces scale poorly on high-resolution screens. This toolkit calls `SetProcessDpiAwareness(2)` inside `shcore.dll` directly upon initialization to enforce native system-level crisp rendering:
 ```python
 ctypes.windll.shcore.SetProcessDpiAwareness(2)
+
+---
+
+## 📥 How to Download & Run
+
+You can deploy this system toolkit to your local machine using one of the three standard methods below:
+
+### Method 1: The Quick ZIP Download (Easiest)
+1. Scroll to the top of this repository page and locate the green **`<> Code`** button.
+2. Click it to open the dropdown options menu.
+3. Select **`Download ZIP`** at the bottom of the list.
+4. Extract the downloaded `.zip` file on your computer to unpack the tools.
+
+### Method 2: Command Line Interface (CLI)
+If you prefer managing development projects using a terminal or command prompt, clone the workspace directly:
+```bash
+git clone [https://github.com/MrAlmm/File-Organizer_Beautiful-Desktop.git](https://github.com/MrAlmm/File-Organizer_Beautiful-Desktop.git)
