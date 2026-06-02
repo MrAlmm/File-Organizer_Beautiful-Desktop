@@ -32,13 +32,6 @@ Developed by **Lynx1 / CYBER TECHNOLOGY**.
 
 ---
 
-## 🔬 Technical Deep Dive
-
-### High-DPI & Fluid Rendering
-Standard Tkinter interfaces scale poorly on high-resolution screens. This toolkit calls `SetProcessDpiAwareness(2)` inside `shcore.dll` directly upon initialization to enforce native system-level crisp rendering:
-```python
-ctypes.windll.shcore.SetProcessDpiAwareness(2)
-
 ---
 
 ## 📥 How to Download & Run
@@ -55,3 +48,14 @@ You can deploy this system toolkit to your local machine using one of the three 
 If you prefer managing development projects using a terminal or command prompt, clone the workspace directly:
 ```bash
 git clone [https://github.com/MrAlmm/File-Organizer_Beautiful-Desktop.git](https://github.com/MrAlmm/File-Organizer_Beautiful-Desktop.git)
+
+## 🔬 Technical Deep Dive
+
+### High-DPI & Fluid Rendering
+Standard Tkinter interfaces scale poorly on high-resolution screens. This toolkit calls `SetProcessDpiAwareness(2)` inside `shcore.dll` directly upon initialization to enforce native system-level crisp rendering:
+```python
+ctypes.windll.shcore.SetProcessDpiAwareness(2)
+
+---
+
+
